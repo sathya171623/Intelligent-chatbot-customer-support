@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # ✅ Load and clean dataset
 # Enclose the filename in quotes to treat it as a string
-df = pd.read_csv("Bitext_Sample_Customer_Support_Training_Dataset_27K_responses-v11.csv")  # Use your path if needed
+df = pd.read_csv("DATASET.csv")  # Use your path if needed
 
 # ✅ Drop rows with missing 'response'
 df = df.dropna(subset=['response'])
